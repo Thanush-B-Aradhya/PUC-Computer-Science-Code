@@ -25,7 +25,7 @@ void insert ::input()
 
 void insert ::cal()
 {
-  if (pstn > (n-1) && pstn < 0)
+  if (pstn > n && pstn < 0)
   {
     cout << "\nPosition not found!!";
     exit(0);
