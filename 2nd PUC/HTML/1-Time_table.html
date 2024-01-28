@@ -1,88 +1,111 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Time Table</title>
-    <subtitle>
-        <center>
-            <h3>Lab Program 1</h3>
-        </center>
-    </subtitle>
+    <h1>
+        <center>Learners PU Time Table</center>
+    </h1>
 </head>
+<style>
+    table,
+    th,
+    {
+    border: 1px solid rgba(47, 112, 203, 0.753);
+    }
+</style>
 
-<body>
-
+<body bgcolor="#E6E6FA" text="#FF6347">
     <center>
-        <h1>
-            <font color="green">MY STUDY TABLE</font>
-        </h1>
+        <table border="5">
 
-        <table border="1" bordercolour="red">
             <tr>
-                <th>Days</th>
-                <th>Subject</th>
-                <th>Morning Study Time</th>
-                <th>College Timings</th>
-                <th>Evening/Night Study Time</th>
-                <th>Questions Paper Solutuion</th>
+                <th>&nbsp;</th>
+                <th>8:30-9:25</th>
+                <th>9:25-10:20</th>
+                <th>10:20-10:35</th>
+                <th>10:35-11:30</th>
+                <th>11:30-12:30</th>
+                <th>12:30-13:00</th>
+                <th>13:00-14:30</th>
+                <th>14:30-16:00</th>
             </tr>
 
-            <tr align=center>
-                <td>Monday</td>
-                <td>I Lang</td>
-                <td>5:00 - 6:30 AM</td>
-                <td>8:45 - 4:30 PM</td>
-                <td>5:00 - 6:30 PM</td>
-                <td>9:00 - 11:00 PM</td>
-            </tr>
-
-            <tr align=center>
-                <td>Tuesday</td>
-                <td>II Lang</td>
-                <td>5:00 - 6:30 AM</td>
-                <td>8:45 - 4:30 PM</td>
-                <td>5:00 - 6:30 PM</td>
-                <td>9:00 - 11:00 PM</td>
-            </tr>
-
-            <tr align=center>
-                <td>Wednesday</td>
+            <tr>
+                <th>Monday</th>
+                <td>Maths</td>
                 <td>Physics</td>
-                <td>5:00 - 6:30 AM</td>
-                <td>8:45 - 4:30 PM</td>
-                <td>5:00 - 6:30 PM</td>
-                <td>9:00 - 11:00 PM</td>
-            </tr>
-
-            <tr align=center>
-                <td>Thursday</td>
-                <td>Chemistry</td>
-                <td>5:00 - 6:30 AM</td>
-                <td>8:45 - 4:30 PM</td>
-                <td>5:00 - 6:30 PM</td>
-                <td>9:00 - 11:00 PM</td>
-            </tr>
-
-            <tr align=center>
-                <td>Friday</td>
-                <td>Mathematics</td>
-                <td>5:00 - 6:30 AM</td>
-                <td>8:45 - 4:30 PM</td>
-                <td>5:00 - 6:30 PM</td>
-                <td>9:00 - 11:00 PM</td>
-            </tr>
-
-            <tr align=center>
-                <td>Saturday</td>
+                <td rowspan="3" align="center">Break</td>
                 <td>Comp.Sc.</td>
-                <td>5:00 - 6:30 AM</td>
-                <td>8:45 - 4:30 PM</td>
-                <td>5:00 - 6:30 PM</td>
-                <td>9:00 - 11:00 PM</td>
+                <td>Chemistry</td>
+                <td rowspan="3" align="center">Lunch Break</td>
+                <td>Comp.Sc. Lab</td>
+                <td>Physics JEE</td>
             </tr>
 
+            <tr>
+                <th>Tuesday</th>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td>Comp.Sc.</td>
+                <td>Chemistry</td>
+                <td>Physics Lab</td>
+                <td>FREE</td>
+            </tr>
+
+            <tr>
+                <th>Wednesday</th>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td>Comp.Sc.</td>
+                <td>Chemistry</td>
+                <td>Chemistry Lab</td>
+                <td>Chemistry JEE</td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <table border="5">
+
+            <tr>
+                <th>&nbsp;</th>
+                <th>8:30-9:25</th>
+                <th>9:25-10:20</th>
+                <th>10:20-10:35</th>
+                <th>10:35-11:30</th>
+                <th>11:30-12:30</th>
+                <th>12:30-13:00</th>
+                <th>13:00-14:00</th>
+                <th>14:00-15:00</th>
+                <th>15:00-16:00</th>
+            </tr>
+
+            <tr>
+                <th>Thursday</th>
+                <td>Comp.Sc.</td>
+                <td>Chemistry</td>
+                <td rowspan="2" align="center">Break</td>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td rowspan="2" align="center">Lunch Break</td>
+                <td rowspan="2" align="center">TEST </td>
+                <td>English</td>
+                <td>Kannada</td>
+            </tr>
+
+            <tr>
+                <th>Friday</th>
+                <td>Comp.Sc.</td>
+                <td>Chemistry</td>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td>English</td>
+                <td>Kannada</td>
+            </tr>
 
         </table>
-    </center>
 </body>
+<marquee>
+    <center>This will be changed daily.<br>So Please don't depend on this.</center>
+</marquee>
 
 </html>
